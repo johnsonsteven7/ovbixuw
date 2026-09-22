@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 结构体深拷贝几种实现
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：http://wap.pfezgi.asia/blog/6302816.sHtMl
+
+原标题：开发测试生产多环境配置区分
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://wap.pfezgi.asia/blog/5372464.sHtMl
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：http://wap.pfezgi.asia/blog/1823815.sHtMl
+
+原标题：golang docker compose 依赖启动顺序
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://wap.pfezgi.asia/blog/7595848.sHtMl
+
+原标题：golang docker 私有仓库搭建使用
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://wap.pfezgi.asia/blog/9595393.sHtMl
+
+原标题：OAuth2 第三方登录服务搭建
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://wap.pfezgi.asia/blog/6803818.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://wap.pfezgi.asia/blog/1835026.sHtMl
+
+原标题：项目实践：本地模拟缓存失效风暴验证防护
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://wap.pfezgi.asia/blog/3049359.sHtMl
+
+原标题：操作系统内核版本适配服务
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://wap.pfezgi.asia/blog/1729469.sHtMl
+
+原标题：golang 系统设计海量数据分页查询
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://wap.pfezgi.asia/blog/5360695.sHtMl
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://wap.pfezgi.asia/blog/5279583.sHtMl
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：http://wap.pfezgi.asia/blog/7114918.sHtMl
+
+原标题：排错：反向代理后获取真实IP全部变成内网IP
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：http://wap.pfezgi.asia/blog/3057281.sHtMl
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.pfezgi.asia/blog/9308026.sHtMl
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://wap.pfezgi.asia/blog/2725780.sHtMl
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://wap.pfezgi.asia/blog/3723472.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://wap.pfezgi.asia/blog/3726815.sHtMl
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://wap.pfezgi.asia/blog/7460471.sHtMl
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://wap.pfezgi.asia/blog/3710240.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://wap.pfezgi.asia/blog/3700259.sHtMl
+
+原标题：golang docker 私有仓库搭建使用
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://wap.pfezgi.asia/blog/1882588.sHtMl
+
+原标题：golang 系统设计热点数据缓存处理
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://wap.pfezgi.asia/blog/7932472.sHtMl
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://wap.pfezgi.asia/blog/5931588.sHtMl
+
+原标题：golang 大文件读取内存优化
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://wap.pfezgi.asia/blog/6303581.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://wap.pfezgi.asia/blog/4125826.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://wap.pfezgi.asia/blog/9268925.sHtMl
+
+原标题：golang github actions 完整工作流示例
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.pfezgi.asia/blog/5936892.sHtMl
+
+原标题：从零搭建简单定时任务demo
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://wap.pfezgi.asia/blog/2603793.sHtMl
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://wap.pfezgi.asia/blog/0593038.sHtMl
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.pfezgi.asia/blog/7168134.sHtMl
+
+原标题：配置外部化线上部署防错误
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://wap.pfezgi.asia/blog/0794693.sHtMl
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://wap.pfezgi.asia/blog/2604603.sHtMl
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://wap.pfezgi.asia/blog/3979471.sHtMl
+
+原标题：golang 系统设计分表 id 生成策略对比
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://wap.pfezgi.asia/blog/3059471.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://wap.pfezgi.asia/blog/9717850.sHtMl
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://wap.pfezgi.asia/blog/8489485.sHtMl
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://wap.pfezgi.asia/blog/4824159.sHtMl
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://wap.pfezgi.asia/blog/2967360.sHtMl
+
+原标题：缓存过期打散防止缓存雪崩
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://wap.pfezgi.asia/blog/0425037.sHtMl
+
+原标题：golang 系统设计 http1.1 http2 核心差异讲解
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://wap.pfezgi.asia/blog/2594627.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：实战项目：HTTPS本地自签名证书配置实践
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://wap.pfezgi.asia/blog/8596628.sHtMl
+
+原标题：环境变量不生效问题修复
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://wap.pfezgi.asia/blog/5484815.sHtMl
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：http://wap.pfezgi.asia/blog/9605624.sHtMl
+
+原标题：Debug：序列化反序列化版本不一致解析失败
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://wap.pfezgi.asia/blog/8581503.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://wap.pfezgi.asia/blog/4740281.sHtMl
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://wap.pfezgi.asia/blog/9609402.sHtMl
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://wap.pfezgi.asia/blog/8525917.sHtMl
+
+原标题：golang mongodb 索引优化查询速度
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://wap.pfezgi.asia/blog/8594514.sHtMl
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://wap.pfezgi.asia/blog/7474624.sHtMl
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://wap.pfezgi.asia/blog/8413746.sHtMl
+
+原标题：依赖安装失败全方位排错
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://wap.pfezgi.asia/blog/7494803.sHtMl
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://wap.pfezgi.asia/blog/9291708.sHtMl
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://wap.pfezgi.asia/blog/2827047.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://wap.pfezgi.asia/blog/6081607.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：http://wap.pfezgi.asia/blog/7480696.sHtMl
+
+原标题：线上故障：第三方接口超时未设置熔断雪崩
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.pfezgi.asia/blog/0608068.sHtMl
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://wap.pfezgi.asia/blog/9291802.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://wap.pfezgi.asia/blog/4867270.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://wap.pfezgi.asia/blog/6372584.sHtMl
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://wap.pfezgi.asia/blog/0603926.sHtMl
+
+原标题：golang 系统设计死信队列 dlq 业务落地完整流程
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.pfezgi.asia/blog/5268474.sHtMl
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://wap.pfezgi.asia/blog/2557369.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://wap.pfezgi.asia/blog/9313927.sHtMl
+
+原标题：nestjs 拦截器过滤器管道实战
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.pfezgi.asia/blog/3916704.sHtMl
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://wap.pfezgi.asia/blog/3061361.sHtMl
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.pfezgi.asia/blog/0717062.sHtMl
+
+原标题：系统字符集统一乱码修复
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://wap.pfezgi.asia/blog/4150353.sHtMl
+
+原标题：golang redis 缓存击穿防护实现
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://wap.pfezgi.asia/blog/5261413.sHtMl
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.pfezgi.asia/blog/1719262.sHtMl
+
+原标题：热更新开发环境配置教程
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://wap.pfezgi.asia/blog/0716627.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://wap.pfezgi.asia/blog/6481807.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://wap.pfezgi.asia/blog/3756858.sHtMl
+
+原标题：实战项目：容器资源限制配置压力测试实践
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://wap.pfezgi.asia/blog/8522705.sHtMl
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://wap.pfezgi.asia/blog/4149362.sHtMl
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://wap.pfezgi.asia/blog/5262586.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://wap.pfezgi.asia/blog/6089582.sHtMl
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.pfezgi.asia/blog/9737069.sHtMl
+
+原标题：Practice：实现业务唯一流水号生成组件实践
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://wap.pfezgi.asia/blog/2939204.sHtMl
+
+原标题：eslint prettier 代码规范落地
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://wap.pfezgi.asia/blog/5261585.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://wap.pfezgi.asia/blog/3949282.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计缓存降级开关快速切库实现
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.pfezgi.asia/blog/3056360.sHtMl
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://wap.pfezgi.asia/blog/9627016.sHtMl
+
+原标题：实践：API版本控制多种策略落地对比实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://wap.pfezgi.asia/blog/3059404.sHtMl
+
+原标题：golang context 上下文传参讲解
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://wap.pfezgi.asia/blog/5372804.sHtMl
+
+原标题：Practice：模拟第三方接口超时服务降级验证
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://wap.pfezgi.asia/blog/1833948.sHtMl
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://wap.pfezgi.asia/blog/4058060.sHtMl
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://wap.pfezgi.asia/blog/9606260.sHtMl
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://wap.pfezgi.asia/blog/5261815.sHtMl
+
+原标题：Git 分支切换合并删除完整操作
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://wap.pfezgi.asia/blog/1828060.sHtMl
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://wap.pfezgi.asia/blog/3140405.sHtMl
+
+原标题：express 请求参数校验处理
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://wap.pfezgi.asia/blog/2174181.sHtMl
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.pfezgi.asia/blog/4307670.sHtMl
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://wap.pfezgi.asia/blog/0929568.sHtMl
+
+原标题：golang 容器健康检查接口开发
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://wap.pfezgi.asia/blog/2938060.sHtMl
+
+原标题：RPC 接口字段增减兼容处理
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.pfezgi.asia/blog/2717969.sHtMl
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://wap.pfezgi.asia/blog/8524047.sHtMl
+
+原标题：浏览器本地存储安全使用技巧
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://wap.pfezgi.asia/blog/1472814.sHtMl
+
+原标题：golang github actions 缓存依赖提速
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://wap.pfezgi.asia/blog/0414028.sHtMl
+
+原标题：golang traceId spanId 传递方案
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://wap.pfezgi.asia/blog/4161302.sHtMl
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://wap.pfezgi.asia/blog/9378148.sHtMl
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://wap.pfezgi.asia/blog/1503692.sHtMl
+
+原标题：golang 系统设计网关鉴权鉴权转发流程讲解
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://wap.pfezgi.asia/blog/9382589.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://wap.pfezgi.asia/blog/2840281.sHtMl
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://wap.pfezgi.asia/blog/4268581.sHtMl
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://wap.pfezgi.asia/blog/4823693.sHtMl
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://wap.pfezgi.asia/blog/3726914.sHtMl
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://wap.pfezgi.asia/blog/4857470.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://wap.pfezgi.asia/blog/6079695.sHtMl
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.pfezgi.asia/blog/5261536.sHtMl
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：http://wap.pfezgi.asia/blog/1924039.sHtMl
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://wap.pfezgi.asia/blog/5272506.sHtMl
+
+原标题：golang 系统设计 tcp 三次握手四次挥手梳理
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://wap.pfezgi.asia/blog/4179584.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://wap.pfezgi.asia/blog/9302917.sHtMl
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://wap.pfezgi.asia/blog/7594847.sHtMl
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://wap.pfezgi.asia/blog/2939147.sHtMl
+
+原标题：Troubleshoot：批量导入数据，事务过大回滚日志暴涨
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://wap.pfezgi.asia/blog/2940362.sHtMl
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://wap.pfezgi.asia/blog/8290473.sHtMl
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://wap.pfezgi.asia/blog/5373624.sHtMl
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://wap.pfezgi.asia/blog/2047140.sHtMl
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://wap.pfezgi.asia/blog/5293795.sHtMl
+
+四、架构设计｜Architecture
+原标题：异步编程 Promise 执行流程解析
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://wap.pfezgi.asia/blog/2828939.sHtMl
+
+原标题：Practice：模拟网络抖动验证服务容错能力
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://wap.pfezgi.asia/blog/6374817.sHtMl
+
+原标题：方案设计：统一错误处理架构全链路方案
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.pfezgi.asia/blog/1868149.sHtMl
+
+原标题：设计思考：分布式锁选型、风险、业务约束
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://wap.pfezgi.asia/blog/1036257.sHtMl
+
+原标题：快速上手调试工具定位简单代码错误
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://wap.pfezgi.asia/blog/0726959.sHtMl
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://wap.pfezgi.asia/blog/6250392.sHtMl
+
+原标题：golang redis 客户端业务使用
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.pfezgi.asia/blog/6373625.sHtMl
+
+原标题：前端水印防信息泄露实现
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://wap.pfezgi.asia/blog/2158484.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://wap.pfezgi.asia/blog/1716958.sHtMl
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://wap.pfezgi.asia/blog/9601702.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://wap.pfezgi.asia/blog/2924141.sHtMl
+
+原标题：golang redis hyperloglog 基数统计
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://wap.pfezgi.asia/blog/1534258.sHtMl
+
+原标题：前端工程化 webpack 打包优化
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://wap.pfezgi.asia/blog/6302147.sHtMl
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://wap.pfezgi.asia/blog/2828280.sHtMl
+
+原标题：gitignore 文件编写过滤规则
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://wap.pfezgi.asia/blog/7911379.sHtMl
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://wap.pfezgi.asia/blog/0313925.sHtMl
+
+原标题：上传接口跨域配置特殊适配
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://wap.pfezgi.asia/blog/8151468.sHtMl
+
+原标题：极简 API 网关路由转发实现
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.pfezgi.asia/blog/3939681.sHtMl
+
+?
