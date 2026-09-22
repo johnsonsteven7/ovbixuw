@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/81939270.html
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74791353.html
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/93491257.html
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/93454768.html
+
+原标题：踩坑记录：浮点精度错误造成业务计算错误
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/48801136.html
+
+原标题：实战：Redis过期回调实现业务事件通知实践
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/69019911.html
+
+原标题：效率笔记：Makefile项目构建脚本编写实践
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/70091133.html
+
+原标题：golang 系统设计内存瓶颈定位优化思路
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85937360.html
+
+原标题：记一次字符集编码不一致乱码问题全排查
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41506171.html
+
+原标题：入门实践：实现简单文件读写功能
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29130392.html
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/26350696.html
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63129138.html
+
+原标题：golang 单元测试 table‑driven
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/18283819.html
+
+原标题：前后端会话登录状态持久化
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/76029369.html
+
+原标题：GraphQL 接口查询优化实操
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/19392407.html
+
+原标题：Practice：简易限流器分布式版本Redis实现
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/80492586.html
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41914682.html
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/59493626.html
+
+原标题：nodejs 读取大文件 csv 处理方案
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/37462594.html
+
+原标题：golang mongodb 聚合管道实操案例
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/07168260.html
+
+原标题：排错：静态资源404，打包路径配置错误
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85071703.html
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/59799504.html
+
+原标题：文件句柄上限调整上传随机失败
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/87169583.html
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/51346143.html
+
+原标题：实践：多配置文件合并加载组件实现
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85771427.html
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/46881478.html
+
+原标题：golang redis 缓存预热实现思路
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/94903612.html
+
+原标题：golang 开发环境快速搭建指南
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41513736.html
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/95945251.html
+
+原标题：golang http 请求重试封装工具
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/98279291.html
+
+原标题：踩坑记录：时间戳精度不一致引发判断错误
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/07273928.html
+
+原标题：golang kafka 监控指标简单梳理
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29381706.html
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/51573584.html
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/19203366.html
+
+原标题：多线程线程安全脏数据规避
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30118346.html
+
+原标题：golang 数据库慢查询监控实现
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/60791797.html
+
+原标题：系统文件描述符上限调大
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/68238180.html
+
+原标题：数据库死锁成因规避方案
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/42614627.html
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/60896817.html
+
+原标题：接口请求重试容错机制实现
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85347167.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/20503517.html
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/53706847.html
+
+原标题：golang docker 部署 kafka 本地调试
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/62725636.html
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52607017.html
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41571357.html
+
+原标题：磁盘 inode 耗尽文件创建失败
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74816827.html
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/64815810.html
+
+原标题：golang ci 流水线环境变量管理方案
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74929250.html
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41716958.html
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/07178469.html
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30472473.html
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85250473.html
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30362414.html
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63624258.html
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52030251.html
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63612817.html
+
+原标题：Git LFS 大文件推送失败解决
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/26057362.html
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63414836.html
+
+原标题：express 中间件开发业务实践
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/60817030.html
+
+原标题：golang redis zset 延时队列实现
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52024149.html
+
+原标题：Git 混乱提交历史清理方法
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85928247.html
+
+原标题：golang mysql 存储过程简单使用
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74952584.html
+
+原标题：多线程线程安全脏数据规避
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/60457565.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/04556879.html
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/59087799.html
+
+原标题：nodejs 项目 pm2 部署运维指南
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/77645657.html
+
+原标题：golang 系统设计传输加密 tls 配置要点
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/71920221.html
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/15878908.html
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/60145770.html
+
+原标题：golang prometheus metrics 埋点开发
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/05989269.html
+
+原标题：坑点：环境配置写死代码，上线忘记修改
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/61589256.html
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/18138192.html
+
+原标题：正则表达式文本处理实战案例
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/93843423.html
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/32715633.html
+
+原标题：程序预加载加快服务启动速度
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/09192990.html
+
+原标题：极简 API 网关路由转发实现
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/96693925.html
+
+原标题：nodejs 读取大文件 csv 处理方案
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/28362514.html
+
+原标题：ORM 隐式慢查询问题规避
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/96068472.html
+
+原标题：golang 系统设计开源项目 release 发布流程
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/96079486.html
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/04248069.html
+
+三、实战开发｜Practice
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/04179584.html
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/40402816.html
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52694935.html
+
+原标题：nodejs jwt 登录鉴权完整示例
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/71627031.html
+
+原标题：golang 系统信号信号量处理
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85979580.html
+
+原标题：坑点：npm/pip全局版本与项目本地版本冲突
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74916068.html
+
+原标题：golang 布隆过滤器实现去重
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41601717.html
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/84705625.html
+
+原标题：Nginx 丢失请求头配置修正
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30483536.html
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/10472515.html
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：读懂开源项目 README 实用技巧，教你快速解析开源项目说明文档，提取安装、运行、配置关键信息，快速上手项目。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/84946258.html
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63748584.html
+
+原标题：golang 简易埋点日志上报实现
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29351472.html
+
+原标题：记一次日志切割脚本错误直接清空业务日志
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/27578462.html
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63139152.html
+
+原标题：性能复盘：磁盘Swap大量使用系统卡顿优化
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/18716924.html
+
+原标题：Practice：数据库分表简单实现方案与代码示例
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/71929258.html
+
+原标题：golang gin 框架接口开发实战
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52684717.html
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30815141.html
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52738141.html
+
+原标题：golang k8s 资源请求限制配置
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/81927070.html
+
+原标题：前端下载导出文件功能实现
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/82039280.html
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29280694.html
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30489363.html
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30412514.html
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/06149281.html
+
+原标题：golang 系统设计 protobuf json 性能对比
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/38128392.html
+
+原标题：golang 系统设计网关 websocket 转发配置要点
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/97735846.html
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/03131413.html
+
+原标题：nodejs 流处理大文件不占内存
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/14846253.html
+
+原标题：接口签名验签完整安全方案
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/17189583.html
+
+原标题：golang redis 过期策略内存淘汰
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/84823695.html
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/96039682.html
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30583926.html
+
+原标题：golang 系统设计联合索引设计避坑要点
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/20413928.html
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang cgo 性能开销避坑指南，cgo 调用开销，减少频繁 cgo 调用，规避 cgo 带来内存泄漏风险。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/46190403.html
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29302627.html
+
+原标题：架构笔记：数据库读写分离架构数据不一致应对
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/29472624.html
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52693684.html
+
+原标题：缓存基础原理与简单代码实现
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/55149281.html
+
+四、架构设计｜Architecture
+原标题：golang 跨域处理中间件编写
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/52635140.html
+
+原标题：服务器时钟同步任务错乱修复
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/81812817.html
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74816959.html
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63835131.html
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/59606959.html
+
+原标题：数据库读写分离性能优化
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63738141.html
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/96069571.html
+
+原标题：单元测试用例编写入门实操
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/07148571.html
+
+原标题：短信服务封装失败自动重试
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/74917027.html
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/63706950.html
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/04149282.html
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30360427.html
+
+原标题：nodejs 消息队列消费服务开发
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/07157260.html
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/41360304.html
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/95957363.html
+
+原标题：快速上手阅读开源项目源码的入门思路
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/30400704.html
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/85038171.html
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.jsdtgz.cn/ljznb/17290804.html
+
+?
